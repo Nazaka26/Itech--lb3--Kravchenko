@@ -1,0 +1,38 @@
+ 
+.absolute-positioned-text {
+    position: absolute;
+    background-color: blueviolet;
+    font-family: "Times New Roman";
+    left: 50px;
+}
+
+.relative-positioned-text {
+    position: relative;
+    color: green;
+    font-style: italic;
+    left: 50px;
+}
+
+#float-right-picture {
+    float: right;
+    background: navy;
+    padding: 3px;
+    margin: 10px;
+}
+
+
+input:invalid {
+    border: 1px dashed red;
+}
+input:valid {
+    background-image: linear-gradient(to left, pink, lightgreen);
+    border: 1px solid green;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+input:focus:invalid {
+    outline: none;
+}

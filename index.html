@@ -1,0 +1,87 @@
+<html lang="rus">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Кравченко lb2</title>
+
+    <link href="index.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+        body {
+            background-color: #ffe6ac;
+        }
+    </style>
+
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>
+            <h1>Лабораторная работа №2</h1>
+            <h2>Каскадные таблицы стилей</h2>
+        </td>
+        <td width="15%">
+            <form>
+                <label for="tel">Заказать звонок</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="Номер телефона" required pattern="[0-9]+"
+                       maxlength="10" size="15"/>
+
+                <button><img width="13" height="13"
+                             src="https://s1.iconbird.com/ico/2014/1/622/w256h2561390854463phone256.png" alt="telephone"
+                             style="vertical-align: middle"></button>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan=2>
+            <p><img id="float-right-picture"
+                    src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/84/19/7d/84197d6e-c988-efb4-dbc0-cb7584fc4a3f/source/256x256bb.jpg" alt=""/>
+            </p>
+            <p style="text-align: center">Задания к варианту №3</p>
+            <ol>
+                <li>Создать простой HTML-документ с произвольным содержимым, как минимум, содержащий блочные элементы
+                    (они понадобятся для демонстрации стилей).
+                </li>
+                <li>Показать в созданном документе три способа использования каскадных таблиц стилей:
+                    <ul>
+                        <li>inline-описание (используется атрибут style);</li>
+                        <li>с помощью контейнера &lt;style&gt; в секции заголовка;</li>
+                        <li>подключить стилевую таблицу, расположенную во внешнем файле;</li>
+                    </ul>
+                </li>
+                <li>Используя селекторы CLASS и ID, показать использование стилей (например, для форматирование шрифта,
+                    текста, изменения фона документа и т.д.)
+                </li>
+                <li>Показать использование абсолютного и относительного позиционирования.</li>
+                <li>Показать использование плавающей модели (свойство float).</li>
+                <li>Добавить в документ элементы согласно варианту:
+                    <ul>
+                        <li><b>добавить на страницу форму, оформление полей которой зависит от корректности заполнения
+                            (valid/invalid) и обязательности;</b>
+                        </li>
+                    </ul>
+                </li>
+                <li>Проверить отображение созданного документа в разных браузерах (при их наличии).</li>
+                <li>Внести в проект указанные преподавателем изменения.</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+
+        <td>
+            <br><br><br>
+            <div class="absolute-positioned-text">
+                Абсолютное позиционирование.
+            </div>
+            <div class="relative-positioned-text">
+                Относительное позиционирование
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
