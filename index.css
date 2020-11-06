@@ -1,4 +1,7 @@
- 
+table td {
+    width: 85%;
+}
+
 .absolute-positioned-text {
     position: absolute;
     background-color: blueviolet;
